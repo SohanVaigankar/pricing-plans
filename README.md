@@ -4,6 +4,7 @@
 ## Tech Stack Summary
 - Reactjs web app created using vite framework and a whole bunch of javascript
 - uses TailwindCSS for styling
+- uses react router for navigation
 
 ## Procedure to install & run on local machine
 
