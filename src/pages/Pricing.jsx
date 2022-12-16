@@ -30,7 +30,7 @@ const Pricing = () => {
         >
           <div
             id={"monthly"}
-            className={`px-3 py-2 w-[5rem] md:w-[7rem] text-[0.8rem]   border-r-[1px] hover:cursor-pointer rounded ${
+            className={`px-3 py-2 w-[5rem] md:w-[7rem] text-[0.8rem] md:text-[1rem]   border-r-[1px] hover:cursor-pointer rounded ${
               duration === "monthly"
                 ? `text-[#fafafa] bg-[#4545c0] hover:opacity-90 transition-all`
                 : "text-[#4545c0] bg-[#fafafa] hover:bg-[#f1f1f1] transition-all"
@@ -40,7 +40,7 @@ const Pricing = () => {
           </div>
           <div
             id={"quarterly"}
-            className={`px-3 py-2 w-[5rem] md:w-[7rem] text-[0.8rem]  border-r-[1px] hover:cursor-pointer rounded ${
+            className={`px-3 py-2 w-[5rem] md:w-[7rem] text-[0.8rem] md:text-[1rem]  border-r-[1px] hover:cursor-pointer rounded ${
               duration === "quarterly"
                 ? `text-[#fafafa] bg-[#4545c0] hover:opacity-90 transition-all`
                 : "text-[#4545c0] bg-[#fafafa] hover:bg-[#f1f1f1] transition-all"
@@ -50,7 +50,7 @@ const Pricing = () => {
           </div>
           <div
             id={"yearly"}
-            className={`px-3 py-2 w-[5rem] md:w-[7rem] text-[0.8rem] border-r-[1px] hover:cursor-pointer rounded ${
+            className={`px-3 py-2 w-[5rem] md:w-[7rem] text-[0.8rem] md:text-[1rem] border-r-[1px] hover:cursor-pointer rounded ${
               duration === "yearly"
                 ? `text-[#fafafa] bg-[#4545c0] hover:opacity-90 transition-all`
                 : "text-[#4545c0] bg-[#fafafa] hover:bg-[#f1f1f1] transition-all"
