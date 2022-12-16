@@ -14,8 +14,8 @@ const PriceCard = ({ data, duration }) => {
     duration === "yearly"
       ? data.price - 1
       : duration === "quarterly"
-      ? Math.round(data.price / 4) - 1
-      : Math.round(data.price / 12) - 1;
+      ? Math.ceil(Math.round((data.price / 4) * 1.05) / 10) * 10 - 1
+      : Math.ceil(Math.round((data.price / 12) * 1.1) / 10) * 10 - 1;
 
   // time
   const time =
